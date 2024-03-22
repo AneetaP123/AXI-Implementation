@@ -1,0 +1,9 @@
+AXI Channels
+
+There are 5 channels in AXI : 
+1. Read Address Channel 
+2. Write Address Channel
+3. Read Data Channel
+4. Write Data Channel
+5. Write Response Channel
+
