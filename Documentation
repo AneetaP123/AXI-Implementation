@@ -29,6 +29,15 @@ Interconnect in AXI
 - Influences the overall throughput and latency of the SoC 
 - Designers need to optimize for high performance interconnect
 
+Register Slices
 
+Importance of Pipelining
+
+Register slice insertion
+
+Latency vs frequency tradeoff
+
+Transaction ordering in AXI
+-
 
 
