@@ -1,3 +1,5 @@
+AMBA AXI
+
 AXI Channels
 
 There are 5 channels in AXI : 
@@ -6,4 +8,27 @@ There are 5 channels in AXI :
 3. Read Data Channel
 4. Write Data Channel
 5. Write Response Channel
+
+Interface in AXI 
+- communciation interface or protocol that define the rule
+- specifies how the data transactions are structured
+- implemented in various components like processors, memory controllers etc
+- Defines signals, timing, read/write transactions, burst transfers, cache coherency etc
+- processor, memory controller, peripheral devices
+- Ensures proper communication between components
+- Influences the communication efficiency at the component level
+- Designers need to adhere to AXIprotocol specifications
+
+Interconnect in AXI 
+- Physical or logical pathway : responsible for routing data between different components efficiently
+- Provides pathways for actual data transfer
+- implemented as buses, bridges, crossbars etc
+- routes data efficiently between different components
+- bus, bridge, crossbar, switch 
+- ensures efficient data flow within the SoC
+- Influences the overall throughput and latency of the SoC 
+- Designers need to optimize for high performance interconnect
+
+
+
 
